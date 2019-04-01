@@ -9,10 +9,19 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Bmfw9gcdI-fGXcoW2zpAwavnLt2BHxsk'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['c0: safe driving',
+           'c1: texting - right',
+           'c2: talking on the phone - right',
+           'c3: texting - left',
+           'c4: talking on the phone - left',
+           'c5: operating the radio',
+           'c6: drinking',
+           'c7: reaching behind',
+           'c8: hair and makeup',
+           'c9: talking to passenger']
 path = Path(__file__).parent
 
 app = Starlette()
