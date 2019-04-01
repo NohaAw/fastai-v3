@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/gecsd18xgoas7i6/export.pkl?dl=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1AK_tOGpFIY_9fbhHk58nuVfC4YzmXwV7'
 export_file_name = 'export.pkl'
 
 classes = ['c0: safe driving','c1: texting - right','c2: talking on the phone - right','c3: texting - left','c4: talking on the phone - left','c5: operating the radio','c6: drinking','c7: reaching behind','c8: hair and makeup','c9: talking to passenger']
