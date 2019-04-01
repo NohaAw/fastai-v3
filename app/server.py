@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Bmfw9gcdI-fGXcoW2zpAwavnLt2BHxsk'
+export_file_url = 'https://www.dropbox.com/s/gecsd18xgoas7i6/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['c0: safe driving',
