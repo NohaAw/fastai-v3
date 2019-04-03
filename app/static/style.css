@@ -46,17 +46,17 @@ button.choose-file-button {
   height: 40px;
   border-radius: 2px;
   background-color: #ffffff;
-  border: solid 1px #006666;
+  border: solid 1px #336666;
   font-size: 13px;
-  color: #006666;
+  color: #336666;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #006666;
+    border: solid 1px #336666;
     border-radius: 2px;
-    background-color: #006666;
+    background-color: #336666;
     font-size: 13px;
     color: #ffffff;
 }
